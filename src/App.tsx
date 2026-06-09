@@ -3,6 +3,7 @@ import './styles/themes.css';
 import { Container } from './components/Container';
 import { Heading } from './components/Heading';
 import { Logo } from './components/Logo';
+import { Cycles } from './components/Cycles';
 
 function App() {
   return (
@@ -13,6 +14,10 @@ function App() {
 
       <Container>
         <Heading>MENU</Heading>
+      </Container>
+
+      <Container>
+        <Cycles />
       </Container>
     </>
   );
