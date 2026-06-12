@@ -1,7 +1,7 @@
 import './styles/global.css';
 import './styles/themes.css';
 import { Container } from './components/Container';
-import { Heading } from './components/Heading';
+import { Menu } from './components/Menu';
 import { Logo } from './components/Logo';
 import { Cycles } from './components/Cycles';
 
@@ -13,7 +13,7 @@ function App() {
       </Container>
 
       <Container>
-        <Heading>MENU</Heading>
+        <Menu />
       </Container>
 
       <Container>
