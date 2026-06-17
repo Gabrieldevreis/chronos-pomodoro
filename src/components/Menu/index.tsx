@@ -1,4 +1,4 @@
-import { HistoryIcon, HouseIcon, SettingsIcon } from 'lucide-react';
+import { HistoryIcon, HouseIcon, SettingsIcon, SunIcon } from 'lucide-react';
 import styles from './styles.module.css';
 
 export function Menu() {
@@ -36,7 +36,9 @@ export function Menu() {
         href='#'
         aria-label='Mudar Tema'
         title='Mudar Tema'
-      ></a>
+      >
+        <SunIcon />
+      </a>
     </nav>
   );
 }
