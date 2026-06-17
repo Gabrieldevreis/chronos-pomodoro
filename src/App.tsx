@@ -3,6 +3,8 @@ import './styles/themes.css';
 import { Container } from './components/Container';
 import { Menu } from './components/Menu';
 import { Logo } from './components/Logo';
+import { CountDown } from './components/CountDown';
+import { DefaultInput } from './components/DefaultInput';
 import { Cycles } from './components/Cycles';
 
 function App() {
@@ -17,7 +19,32 @@ function App() {
       </Container>
 
       <Container>
-        <Cycles />
+        <CountDown />
+      </Container>
+
+      <Container>
+        <form action='' className='form'>
+          <div className='formRow'>
+            <DefaultInput
+              labelText='task'
+              id='meuInput'
+              type='text'
+              placeholder='Digite Algo'
+            />
+          </div>
+
+          <div className='formRow'>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+
+          <div className='formRow'>
+            <Cycles />
+          </div>
+
+          <div className='formRow'>
+            <button>Enviar</button>
+          </div>
+        </form>
       </Container>
     </>
   );
